@@ -6,6 +6,7 @@ sudo apt-get install libmagickcore-dev
 sudo apt-get install graphicsmagick-libmagick-dev-compat
 sudo apt-get install libmagickwand-dev
 sudo apt-get install imagemagick
+sudo apt-get install libtcltk-ruby
 ```
 
 
