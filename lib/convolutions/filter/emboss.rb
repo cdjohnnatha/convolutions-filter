@@ -3,8 +3,7 @@ module Convolutions
     class Emboss
       attr_accessor :filter_a, :filter_b, :filter_c
 
-      def initialize(c=1, d=1)
-        @c, @d = c, d
+      def initialize
         @filter_a = Matrix.build(3) { 0 }.to_a
         @filter_b = Matrix.build(3) { 0 }.to_a
         @filter_c = Matrix.build(3) { 0 }.to_a

@@ -5,8 +5,7 @@ module Convolutions
     class Corner
       attr_accessor :filter_a, :filter_b, :filter_c, :filter_d
 
-      def initialize(c=1, d=1)
-        @c, @d = c, d
+      def initialize
         
         @filter_a = Matrix.build(3) { -0.125 }.to_a
         @filter_b = Matrix.build(3) { 0 }.to_a
